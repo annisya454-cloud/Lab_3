@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Campus Life</title>
   <style>
     * {
       margin: 0;
@@ -13,7 +13,7 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: rgba(212, 211, 122, 0.836);
+      background-color: rgba(212, 211, 122, 0.836); 
       color: rgb(11, 65, 20);
     }
 
@@ -24,7 +24,6 @@
       width: 100%;
     }
 
-   
     .logo {
       display: flex;
       justify-content: center;
@@ -32,9 +31,12 @@
       background-color: rgba(33, 212, 33, 0.315);
       min-height: 100px;
       width: 100%;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(11, 65, 20);
+      text-transform: uppercase;
     }
 
-   
     .navigation {
       display: flex;
       justify-content: center;
@@ -59,18 +61,16 @@
       background-color: rgba(219, 71, 116, 0.2);
     }
 
-    
     .header {
       background-color: rgba(33, 212, 33, 0.315);
       color: rgb(11, 65, 20);
       text-align: center;
       padding: 20px;
-      font-size: 24px;
+      font-size: 22px;
       margin-top: 10px;
       font-weight: bold;
     }
 
-    
     .content {
       display: flex;
       flex-direction: row;
@@ -81,7 +81,6 @@
       gap: 20px;
     }
 
-   
     .side_bar {
       background-color: rgb(219, 71, 116);
       flex-basis: 25%;
@@ -95,43 +94,69 @@
       text-align: center;
     }
 
-    .side_bar p {
-      margin-bottom: 8px;
+    .side_bar ul {
+      list-style-type: none;
     }
 
+    .side_bar li {
+      margin-bottom: 10px;
+    }
+
+    .side_bar a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .side_bar a:hover {
+      color: rgba(212, 211, 122, 0.9);
+    }
 
     .body_area {
-            flex-basis: 70%;
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(33, 212, 33, 0.2);
-            
-        }
-
-    .center-image {
-      display: block;
-      margin: 0 auto;
+      flex-basis: 70%;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(33, 212, 33, 0.2);
+      padding: 20px;
       border-radius: 10px;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      color: rgb(11, 65, 20);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: rgb(219, 71, 116);
+    }
+
+    .section img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
       border: 3px solid rgba(33, 212, 33, 0.3);
     }
 
-    
-     .footer {
-            background-color: rgb(11, 65, 20);
-            color: white;
-            text-align: center;
-            margin-top: 10px;
-            padding: 15px 0;
-            font-weight: bold;
-        }
-
+    .footer {
+      background-color: rgb(11, 65, 20);
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+      padding: 15px 0;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <div class="container">
 
     <div class="logo">
-      <img src="logouthm.png" width="300" alt="UTHM Logo">
+      Campus Life
     </div>
 
     <div class="navigation">
@@ -142,11 +167,10 @@
     </div>
 
     <div class="header">
-      HELLO,WELCOME TO MY WEBSITE
+      My Journey and Experiences at UTHM
     </div>
 
     <div class="content">
-
       <div class="side_bar">
         <h3>About Me</h3>
         <p><strong>Name:</strong> Annisya Binti Muhammad Yusuf</p>
@@ -158,20 +182,22 @@
         <p><strong>Email:</strong> annisya454@gmail.com</p>
       </div>
 
-      <div class="body_area">
-    <img src="bobby.jpg" width="200" height="250" class="center-image">
-    <div style="text-align: center; margin-top: 10px;">
-        <p style="font-style: italic; color: #2e4f1d;">
-            “Cats leave paw prints on your heart forever.” 🐾
-        </p>
-        <p style="color: #2e4f1d; font-weight: bold;">
-            Meet Bobby — my adorable companion who loves naps and cuddles!
-        </p>
+        <div class="section">
+          <h2>🎉 Events and Activities</h2>
+          <p>Recently, I joined a university program where we visited the 5G Portal Office at Tun Razak Exchange (TRX), Kuala Lumpur. It was an exciting experience to learn about the latest 5G technologies, smart city innovations, and how 5G will transform future digital connectivity in Malaysia.</p>
+          <img src="5g.jpg" >
+        </div>
+
+        <div class="section">
+          <h2>🤝 Friends and Memories</h2>
+          <p>My friends make campus life enjoyable. We study together, share good times, and create memories that I’ll cherish forever.</p>
+          <img src="friend.jpg" alt="Friends at campus">
+        </div>
+      </div>
     </div>
-</div>
-    </div>
+
     <div class="footer">
-      &copy; 2025 Annisya’s Personal Website
+      &copy; 2025 Annisya's Personal Website
     </div>
 
   </div>

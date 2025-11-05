@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(212, 211, 122, 0.836); 
+      margin: 40px;
+      color: rgb(11, 65, 20);
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(60, 126, 47, 0.315);
+      min-height: 50px;
+      margin-bottom: 30px;
+      gap: 40px;
+      border-radius: 8px;
+      padding: 10px 0;
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: rgb(219, 71, 116);
+      font-weight: bold;
+      padding: 8px 15px;
+      transition: 0.3s;
+      border-radius: 5px;
+    }
+
+    .navigation a:hover {
+      color: rgb(11, 65, 20);
+      background-color: rgba(219, 71, 116, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(11, 65, 20);
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    table {
+      width: 85%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: rgba(33, 212, 33, 0.315);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid rgba(11, 65, 20, 0.3);
+      padding: 12px 15px;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: rgba(60, 126, 47, 0.315); 
+      color: rgb(11, 65, 20);
+      text-align: left;
+    }
+
+    td {
+      background-color: rgba(216, 161, 187, 0.8);
+    }
+
+    tr:hover td {
+      background-color: rgba(219, 71, 116, 0.1); 
+    }
+
+    img {
+      width: 140px;
+      border-radius: 10px;
+      border: 3px solid rgb(219, 71, 116);
+    }
+
+    a {
+      color: rgb(219, 71, 116);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: rgb(11, 65, 20);
+      text-decoration: underline;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    .footer {
+      background-color: rgb(11, 65, 20);
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px 0;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navigation">
+    <a href="index.html">Home</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="hobby.html">Hobbies</a>
+    <a href="campus life.html">Campus Life</a>
+  </div>
+
+  <h1>My Personal Profile</h1>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Annisya Binti Muhammad Yusuf</td>
+      <td rowspan="4" style="text-align:center;"><img src="myphoto.jpg" alt="My Photo"></td>
+    </tr>
+    <tr>
+      <th>Date of Birth</th>
+      <td>21 May 2004</td>
+    </tr>
+    <tr>
+      <th>Religion</th>
+      <td>Islam</td>
+    </tr>
+    <tr>
+      <th>Race</th>
+      <td>Malay</td>
+    </tr>
+
+    <tr>
+      <th rowspan="4">Address</th>
+      <th>Street</th>
+      <td>Jalan Pulai 3, Taman Pulai Utama</td>
+    </tr>
+    <tr>
+      <th>Town</th>
+      <td>Johor Bahru</td>
+    </tr>
+    <tr>
+      <th>District</th>
+      <td>81300</td>
+    </tr>
+    <tr>
+      <th>State</th>
+      <td>Johor</td>
+    </tr>
+
+    <tr>
+      <th rowspan="3">Contact</th>
+      <th>Mobile Phone</th>
+      <td>+60 22801220</td>
+    </tr>
+    <tr>
+      <th>Social Media</th>
+      <td><a href="https://instagram.com/nisyaaysf" target="_blank">@nisyaaysf</a></td>
+    </tr>
+    <tr>
+      <th>Website</th>
+      <td><a href="https://github.com/annisya454-cloud" target="_blank">github.com/annisya454-cloud</a></td>
+    </tr>
+
+    <tr>
+      <th>Course and Institution</th>
+      <td colspan="2">Bachelor of Computer Science (Software Engineering), Universiti Tun Hussein Onn Malaysia (UTHM)</td>
+    </tr>
+
+    <tr>
+      <th>Programming Skills</th>
+      <td colspan="2">
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Flutter & Firebase</li>
+          <li>Java & Python</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Hobbies</th>
+      <td colspan="2">Play Games, Reading, Photography</td>
+    </tr>
+
+    <tr>
+      <th>2025 Wishlist</th>
+      <td colspan="2">
+        <ol>
+          <li>Graduate with First Class Honours</li>
+          <li>Travel to Korea</li>
+          <li>Healthy Lifestyle</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    &copy; 2025 Annisya’s Personal Website
+  </div>
+
+</body>
+</html>
